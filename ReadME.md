@@ -7,39 +7,34 @@ There are 2 types of web applications:
     1. SPA - Single page application --> CSR Client side rendering
     2. MPA - Multi page application --> SSR Server side rendering
 
-
-Compare them in Vietnamese :D
-
 ### Speed:
-    SPA nhanh hơn khi sử dụng
-        Phần lớn tài nguyên được tải trong lần đầu
-        Trang chỉ tải thêm dữ liệu mới khi cần
-    MPA chậm hơn khi sử dụng
-        Luôn tải lại toàn bộ trang khi truy cập và chuyển hướng
+    SPA faster than MPA
+        Most of resources will be loaded in the first time - 1st render
+        Web only load other resources as needed
+    MPA slower than the other one
+        Always reload all resources navigate/scroll... -> interact with the website
 
-### Bóc tách:
-    SPA có phần Front-end riêng biệt
-    MPA Front-end & Back-end phụ thuộc nhau nhiều hơn, được đặt trong cùng 1 dự án
+### FE/BE relationship:
+    SPA: Front-end, Back-end can work independently
+    MPA: Front-end & Back-end must work in together, in the same project
 
 ### SEO 
-    SPA không thân thiện với SEO như MPA
-    Trải nghiệm trên thiết bị di động tốt hơn MPA
+    MPA is better than SPA in SEO
 
 ### UX
-    SPA cho trải nghiệm tốt hơn, nhất là các thao tác chuyển trang
-    Trải nghiệm trên thiết bị di động tốt hơn
+    SPA gives the better experiences, especially with  navigate.. actions
+    SPA give us the better experiences when using mobile phone
 
-### Quá trình phát triển 
-    SPA dễ dàng tái sử dụng code (component)
-    SPA bóc tách FE & BE
-        Chia team phát triển song song
-        PHát triển thêm mobile app dễ dàng
+### Developement process 
+    SPA is easier to re-use code (component)
+    SPA FE & BE work independently
+        Save more time
+        Develope Mobile app easier
 
-### Phụ thuộc Javascript
-    SPA phụ thuộc hoàn toàn vào Javascript
-    MPA có thể không cần Javascript
+### Base on Javascript
+    SPA fully base on Javascript
+    MPA no need Javascript in some case
     
-### Chọn SPA hay MPA?
-    Không có thứ gì luôn hoàn hảo trong mọi trường hợp
-
+### Choose SPA or MPA?
+    Nothing perfect in every situation
 
