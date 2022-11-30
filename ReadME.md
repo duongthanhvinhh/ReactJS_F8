@@ -1,7 +1,7 @@
-#####################################################ReactJs###################################################
+################################################ReactJs###############################################
 ReactJs is one of the libraries/frameworks that is used to create SPA web applications
 Top Big_websites using React: Google, Facebook,Twitter,... and others: F8, shoppe, 30Shine, chotot, ZingMP3
-##############################################################################################################
+#######################################################################################################
 
 There are 2 types of web applications:
     1. SPA - Single page application --> CSR Client side rendering
